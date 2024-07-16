@@ -1,0 +1,180 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* universal selector style */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+body {
+    background-image: url(https://digitalassets-secure.tesla.com/image/upload/f_auto,q_auto/xufyfcvqhmq36szytod7.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+/* banner wrap style */
+.banner-wrap {
+
+    background-image: radial-gradient(54.97% 272.54% at 27.36%-134.72%, rgba(112, 145, 234, 0.98)0, rgba(0, 0, 0, 0.98)100%);
+    background-size: cover;
+    padding: 16px 24px;
+
+
+
+
+}
+/* ad class style */
+.ad {
+    /* background-image: radial-gradient(54.97% 272.54% at 27.36%-134.72%, rgba(112, 145, 234, 0.98)0, rgba(0, 0, 0, 0.98)100%); */
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 14PX 24PX 14PX 24px;
+
+
+
+
+
+}
+
+
+nav {
+
+    display: flex;
+    align-items: center;
+    border: 100px;
+    display: flex;
+    justify-content: space-between;
+    line
+
+
+
+
+
+}
+/* nav-item class style */
+.nav-item{
+    padding: 4px 8px;
+
+
+}
+.nav-item:hover{
+    background-color:#0000000D ;
+    cursor: pointer;
+
+
+
+}
+
+a items {
+    color: black;
+
+
+}
+
+.heading-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+
+}
+.btn{
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+    margin: 0px 0px 16px;
+    padding: 16px 24px;
+    height:100px;
+   
+   
+
+    
+
+}
+/* left button style */
+.btn-left{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 4px 24px;
+
+
+}
+/* right button style */
+.btn-right{
+  
+    margin: 10px;
+    padding: 4px 24px;
+    width: 200px;
+    height: 100px;
+    
+
+
+}
+.light{
+    color: darkgrey;
+   
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+
+
+
+}
+.dark{
+    background-color:darkgray;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    
+
+
+}
+
+
+
+
+.tds-site-logo-link {
+    align-items: center;
+    display: inline-flex;
+}
+.logo img{
+    width: 100px;
+
+
+
+}
+/* h1{
+    margin: 0px;
+    height: 50vh;
+   
+
+
+
+} */
+/* p{
+    
+    height: 50vh;
+
+
+}
+     */
+
